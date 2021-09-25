@@ -1,0 +1,140 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 2px solid black;
+  }
+  
+  .navbar-brand {
+    padding-top: 50px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 2.0em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    position: relative;
+    top: -30px;
+    left: 20px;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: lightgrey;
+    display: none;
+  }
+  
+  #nav-list a {
+    color: grey;
+    text-align: center;
+    
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -50px;
+  }
+  #heading{
+    position: relative;
+    top: -0.5em;
+    left: 13em;
+    color: black;
+    font-family: 'Comic Sans';
+    text-shadow: 1.5px 1.5px grey;
+  }
+  #ChickenSection{
+    margin-left: 30px;
+    width: 96%;
+    background-color: darkgrey;
+    color: black;
+    font-family: 'Comic Sans';
+  }
+  #BeefSection{
+    margin-left: 30px;
+    width: 96%;
+    background-color: darkgrey;
+    color: black;
+    font-family: 'Comic Sans';
+  }
+  #SushiSection{
+    margin-left: 30px;
+    width: 96%;
+    background-color: darkgrey;
+    color: black;
+    font-family: 'Comic Sans';
+  }
+  #insideTitle{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px grey;
+  }
+  #content{
+    margin: 10px;
+  }
+  @media (min-width: 768px) {
+    #heading{
+      position: relative;
+      top: -10px;
+      left: 40%;
+      color: black;
+      font-weight: bold;
+    }
+  }  
+  @media (max-width: 768px) {
+    #nav-list{
+      display:block;
+    }
+    #heading{
+      position: relative;
+      top: -10px;
+      left: 27%;
+      color: black;
+      font-weight: bold;
+    }
+    #ChickenSection{
+      margin-left: 20px;
+      width: 92%;
+      background-color: darkgrey;
+      color: black;
+    }
+    #BeefSection{
+      margin-left: 20px;
+      width: 92%;
+      background-color: darkgrey;
+      color: black;
+    }
+    #SushiSection{
+      margin-left: 20px;
+      width: 92%;
+      background-color: darkgrey;
+      color: black;
+    }
+  }
+  
+  
+  
